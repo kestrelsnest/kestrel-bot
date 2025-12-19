@@ -1,0 +1,11 @@
+﻿using System;
+
+namespace Kestrel.Bot.Entities.Integration.Sneaker
+{
+    [Serializable]
+    public sealed class PlayerContract
+    {
+        public string name { get; set; }
+        public string type { get; set; }
+    }
+}
